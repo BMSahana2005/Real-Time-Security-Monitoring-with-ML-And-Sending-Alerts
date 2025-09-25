@@ -31,12 +31,19 @@ AlertCam is a smart, real-time security monitoring solution that leverages machi
 --Alert System: An immediate alert is sent to administrators via SMS and email, including a captured snapshot of the intruder.
 
 **Project Structure**
+
 AlertCam/
+
 ├── Caturing Dataset.py     # Script for capturing and enrolling new authorized faces
+
 ├── Train.py                # Script for training the ML model with new data
+
 ├── Notifying.py            # Main script for real-time scanning and alerting
+
 ├── known_faces/            # Directory to store the dataset of known faces
+
     └── known_faces.pkl     # Serialized data of facial embeddings
+    
 ├── Main.py                 # Integrating all code
 
 
